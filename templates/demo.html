@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <title>d3 start</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <script src="https://d3js.org/d3.v5.min.js"></script>
+    <script type=text/javascript src="{{url_for('static', filename='jquery-3.4.1.min.js') }}"></script>
+    <script type=text/javascript src = "{{ url_for('static', filename='demo.js') }}"></script>
+
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+    <link rel="stylesheet" href="{{ url_for('static', filename='demo.css') }}" />
+</head>
+<body background = "{{ url_for('static', filename='gradient.jpg') }}">
+    <h3 id = "header">D3 VISUALISATION - A Network Model</h3>
+    <div id="container">
+        <button type="button" id = "load_data" class="btn btn-primary btn-lg">Load JSON Data</button>
+        <div id = "msg_cnt" class="span4"></div>
+        <button type="button" id = "start_btn" class="btn btn-primary btn-lg">Lets get started</button>
+    </div>
+</body>
+</html>
+

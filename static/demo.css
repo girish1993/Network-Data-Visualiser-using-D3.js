@@ -1,0 +1,104 @@
+body{
+    background-position: center; 
+    background-repeat: no-repeat; 
+    background-size: cover;
+    height: 900px;
+}
+
+#msg_cnt{
+    text-align: center;
+    color: #e8642c;
+    text-decoration-style: solid;
+    font-family:"Lucida Sans Unicode", "Lucida Grande", sans-serif;
+    font-weight: bolder;
+    font-size: 20px;
+}
+
+#chart_btn{
+    background-color: #e82c2ce0;
+    padding: 15px;
+    border: 3px solid #2c9ae8d9; /* Green border */
+    color: white; /* White text */
+    cursor: pointer; /* Pointer/hand icon */
+    margin: 20px;
+    box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
+    
+}
+
+#nav_btn{
+    background-color: #e82c2ce0;
+    padding: 15px;
+    border: 3px solid #2c9ae8d9; /* Green border */
+    color: white; /* White text */
+    cursor: pointer; /* Pointer/hand icon */
+    margin: 20px;
+}
+
+
+#load_data{
+    margin-left: 50px; 
+}
+
+
+#header{
+    text-align: center;
+    color: #e8642c;
+    text-decoration-style: solid;
+    font-family:"Lucida Sans Unicode", "Lucida Grande", sans-serif;
+    font-weight: bolder;
+    font-size: 50px;
+}
+
+#container button {
+    background-color: #f36a6ae0;
+    padding: 30px;
+    padding-left: 150px;
+    padding-right: 150px;
+    border: 5px solid #2c9ae8d9; /* Green border */
+    border-radius: 20px;
+    color: white; /* White text */
+    cursor: pointer; /* Pointer/hand icon */
+    display: block; /* Make the buttons appear below each other */
+    margin: 80px;
+    margin-left: 500px;
+    margin-top: 150px;
+  }
+
+#canvas_area {
+    margin-left: 250px;
+    margin-top: 0;
+}
+
+h2{
+    text-align: center;
+    color: #e8642c;
+    text-decoration-style: solid;
+    font-family:"Lucida Sans Unicode", "Lucida Grande", sans-serif;
+    font-weight: bolder;
+    font-size: 25px;
+}
+
+
+div.tooltip {	
+    position: absolute;			
+    text-align: center;			
+    width: 150px;					
+    height: 65px;					
+    padding: 6px;				
+    font: 12px sans-serif;
+    font-weight:    30px;		
+    background: rgb(250, 252, 134);	
+    border: 2px;		
+    border-radius: 8px;			
+    pointer-events: none;	  
+
+}
+
+.node{
+    opacity: 2px;
+}
+
+circle:hover {
+    stroke-width: 10px;
+    stroke: #ffee05;
+}

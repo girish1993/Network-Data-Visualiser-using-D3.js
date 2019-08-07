@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Canvas</title>
+    <script src="https://d3js.org/d3.v5.min.js"></script>
+    <script type=text/javascript src="{{url_for('static', filename='jquery-3.4.1.min.js') }}"></script>
+    <script type=text/javascript src = "{{ url_for('static', filename='demo.js') }}"></script>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+    <link rel="stylesheet" href="{{ url_for('static', filename='demo.css') }}" />
+</head>
+<body background = "{{ url_for('static', filename='gradient.jpg') }}">
+    <h2><span><i>Network Model consists of nodes and Edges. The Nodes reprsent a Trading site and the edges represent trading amount
+         between the sites. The radius of the nodes and the weight of the edges change with trade amount. Hover over nodes to see additional information.</i></span></h2>
+    <button type="button" id = "nav_btn" class="btn btn-primary">Back</button>
+    <button type="button" id = "chart_btn" class="btn btn-primary">Draw - NETWORK MODEL</button>
+    <div id = "canvas_area" class="container"></div>
+</body>
+</html>
