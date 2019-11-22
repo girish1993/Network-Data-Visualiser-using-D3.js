@@ -29,4 +29,4 @@ Follow the steps to run this Web application:
 The application on start up looks like this.
 
 ![Image on startup]
-(/Users/girishbhatta/Documents/Uni-stuff/GithubRepos/Network-Data-Visualiser-using-D3.js/1.png)
+(https://github.com/girish1993/Network-Data-Visualiser-using-D3.js/blob/master/1.png)
