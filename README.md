@@ -25,3 +25,8 @@ Follow the steps to run this Web application:
     3. the navigated page will have 2 buttons - "Draw- the network model" and "Back"
     4. On click of the Draw button, the network model with nodes and edges will appear.
     5. Hovering over the nodes will instantiate a tooltip which will have information regarding : site name, total trading amount, number of links.
+
+The application on start up looks like this.
+
+![Image on startup]
+(/Users/girishbhatta/Documents/Uni-stuff/GithubRepos/Network-Data-Visualiser-using-D3.js/1.png)
