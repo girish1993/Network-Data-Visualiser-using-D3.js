@@ -27,6 +27,5 @@ Follow the steps to run this Web application:
     5. Hovering over the nodes will instantiate a tooltip which will have information regarding : site name, total trading amount, number of links.
 
 The application on start up looks like this.
+![Open up Image](https://github.com/girish1993/girish1993.github.io/blob/master/1.png)
 
-![Image on startup]
-(https://github.com/girish1993/Network-Data-Visualiser-using-D3.js/blob/master/1.png)
