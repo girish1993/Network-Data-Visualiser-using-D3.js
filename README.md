@@ -29,8 +29,4 @@ Follow the steps to run this Web application:
 The application on start up looks like this.
 
 ![Image on startup]
-<<<<<<< HEAD
 (https://github.com/girish1993/Network-Data-Visualiser-using-D3.js/blob/master/1.png)
-=======
-(./1.png)
->>>>>>> 79273aca7b7b8011fec63728c1c87835c2981e56
