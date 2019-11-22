@@ -27,5 +27,7 @@ Follow the steps to run this Web application:
     5. Hovering over the nodes will instantiate a tooltip which will have information regarding : site name, total trading amount, number of links.
 
 The application on start up looks like this.
-![Open up Image](https://github.com/girish1993/girish1993.github.io/blob/master/1.png)
+![Open up Image](https://github.com/girish1993/girish1993.github.io/blob/master/doc_images/1.png)
 
+Click the "Get started" button to be navigated to the <b>Network Visualization Page</b>
+![Network Page](https://github.com/girish1993/girish1993.github.io/blob/master/doc_images/2.png)
