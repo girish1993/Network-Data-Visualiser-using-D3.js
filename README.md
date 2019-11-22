@@ -31,3 +31,8 @@ The application on start up looks like this.
 
 Click the "Get started" button to be navigated to the <b>Network Visualization Page</b>
 ![Network Page](https://github.com/girish1993/girish1993.github.io/blob/master/doc_images/2.png)
+
+The network shown, is a collection of nodes and edges where each node is trading site and the edges represent the amount of trade between the trading centres. 
+
+Hover over the nodes for additional information.
+![Hover Information](https://github.com/girish1993/girish1993.github.io/blob/master/doc_images/4.png)
